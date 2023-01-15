@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    column-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    font-size: 0.904rem;
+    font-weight: 600;
+}
+
+.icon-earth {
+    width: 24px;
+    height: auto;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img {
+    width: 125px;
+    height: auto;
+    
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #918E9B;
+}
+
+.location {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+
+.icon--country{
+    display: flex;
+    column-gap: 2px;
+    margin-bottom: 10px;
+}
+
+.icon--country p:last-child {
+    margin-left: 10px;
+}
+
+.google-map {
+    text-decoration: underline;
+    font-size: 10.24px;
+    color: #918E9B;
+}
+
+
+.card-details{
+    margin-left: 2px;
+}
+
+.card-details-h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #2B283A;
+    margin-bottom: 15px;
+}
+
+.card-details-p1 {
+    font-size: 10.24px;
+    font-weight: Bold;
+    color: #2B283A;
+    margin-bottom: 30px;
+}
+
+.card-details-p2 {
+    font-size: 10.24px;
+    color: #2B283A;
+}
+
+.icon-location {
+    width: 10px;
+    height: auto;
+        
+    color: #F55A5A;
+    filter: drop-shadow(1px 2px 5px #ced4da);
+    
+}
+
+.country {
+    color: #2B283A;
+    font-size: 10.24px;
+}
+
+/* UTILITY CLASS */
+
+.text-shadow {
+    text-shadow: 1px 2px 5px #ced4da;
+}
+
+.padding-top {   
+    padding-top: 5px;
+}
+
+ hr {
+    border: 1px solid #F5F5F5;
+    width: 440px;
+    margin: 15px auto 0 auto;
+} 
